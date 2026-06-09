@@ -19,3 +19,4 @@ node_modules
 .editorconfig
 .gitattributes
 yarn.lock
+.env

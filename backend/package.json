@@ -2,10 +2,11 @@
   "name": "backend",
   "packageManager": "yarn@4.16.0",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
   },
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node  --env-file=.env --watch ./src/index.js"
   },
   "type": "module"
 }
