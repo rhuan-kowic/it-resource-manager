@@ -1,4 +1,11 @@
 {
   "name": "backend",
-  "packageManager": "yarn@4.16.0"
+  "packageManager": "yarn@4.16.0",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "type": "module"
 }
